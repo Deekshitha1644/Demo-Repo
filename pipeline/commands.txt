@@ -1,0 +1,4 @@
+dbt seed
+dbt test --select source:*
+dbt build --select tag:daily
+dbt run-operation hello

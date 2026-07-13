@@ -1,0 +1,14 @@
+trial:
+  target: dev
+
+  outputs:
+    dev:
+      type: snowflake
+      account: "_"
+      user: "_"
+      database: TRIAL_DB
+      warehouse: COMPUTE_WH
+      schema: DEMO
+      threads: 4
+      client_session_keep_alive: false
+      query_tag: dbt_trial
