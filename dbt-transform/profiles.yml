@@ -6,6 +6,7 @@ trial:
       type: snowflake
       account: "_"
       user: "_"
+      role: ACCOUNTADMIN
       database: TRIAL_DB
       warehouse: COMPUTE_WH
       schema: DEMO
