@@ -1,0 +1,19 @@
+name: 'trial'
+version: '1.0.0'
+profile: 'trial'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  trial:
+    +materialized: table
+
+
+    
